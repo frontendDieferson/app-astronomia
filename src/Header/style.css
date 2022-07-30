@@ -1,0 +1,27 @@
+
+.App-header {
+    margin-bottom: 390px;
+    
+
+}
+.App-header h1 {
+  color: #fff;
+  font-size: 24 px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+
+
+.App-logo {
+   width: 80px;
+   height: 80px;
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: #fff;
+
+  }
+  
+  .App-title {
+    font-size: 4em;
+   
+  }
