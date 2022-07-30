@@ -1,0 +1,23 @@
+
+.App-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+
+    margin-bottom: 390px;
+    width: 100%;
+
+}
+
+
+
+.App-logo {
+   width: 80px;
+   height: 80px;
+
+  }
+  
+  .App-title {
+    font-size: 4em;
+   
+  }

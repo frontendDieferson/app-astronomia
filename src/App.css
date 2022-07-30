@@ -1,20 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 #root {
-  max-width: 1280px;
+  
+  width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 1rem;
   text-align: center;
+  background-image: url('./assets/background.jpg/');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-.App-logo {
-  height: 6em;
-}
 
-.App-title {
-  font-size: 4em;
- 
-}
 .App-description {
   font-size: 1.5em;
   color: #000;
@@ -25,8 +29,58 @@
   font-weight: 700;
 }
 
+.App-button {
+  color: #000;
+  font-size: 1.0rem;
+  margin-top: 40px;
+  background-color: rgb(246, 226, 6);
+  border-radius: 8px;
+  width: 200px;
+  height: 60px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  
+}
+
+.App-share {
+  
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.App-share span {
+  color: rgb(238, 255, 4);
+  text-align: center;
+  font-size: 24px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  margin-top: 30px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000;
+}
+.App-share-icons {
+  
+  
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  
+  
+}
 
 .App-footer {
   position: relative;
   top: 170px;
+}
+
+@media screen and (max-width: 800px) {
+  #root {
+    width: 500px;
+  }
+  .App-description {
+    min-width: 200px;
+    justify-content: center;
+    font-size: 12px;
+  }
 }
