@@ -8,13 +8,12 @@ import Menu from '../Menu/Menu'
 
 export default function Header() {
     return (
-        <div className='h-screen w-screen flex flex-col items-center p-10'>
-
-        <header className="container md-auto">
+        <div className='App-header'>
             <img className="App-logo" src={Logo} alt="Logo Aplicatação" />
+            <h1>Frases da Astromia</h1>
             
         {/* <Menu /> */}
-      </header>
+     
         </div>
     )
 }

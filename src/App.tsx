@@ -24,7 +24,7 @@ function App() {
   },[])
 
   return (
-    <div className="text-center flex flex-col grow mx-4 md:mx-20 p-2 mb-60 min-h-[100px]">
+    <div className="container">
       <Header />
       <p className='App-description'>
         {quote}</p>
